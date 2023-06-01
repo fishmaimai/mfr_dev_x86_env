@@ -1,0 +1,6 @@
+export SELF_IP=127.0.0.1
+export MASTER_IP=127.0.0.1
+export ROS_IP=$SELF_IP
+export ROS_MASTER_URI=http://$MASTER_IP:11311
+export MFR_IP=$SELF_IP
+export MFR_MASTER_URI=http://$MASTER_IP:11300
